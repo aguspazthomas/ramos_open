@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monte-Carlo Draw</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header" aria-label="Primary navigation">
+        <div class="app-header__inner">
+          <div class="app-brand" aria-label="Ramos Open">
+            <img class="app-logo" src="/logo_ramosopen.svg" alt="Ramos Open" />
+          </div>
+          <nav class="top-nav" aria-label="Tournament sections">
+            <button class="nav-tab nav-tab--active" type="button" data-view="draws" aria-current="page">DRAWS</button>
+            <button class="nav-tab" type="button" data-view="players">Jugadores</button>
+            <button class="nav-tab" type="button" data-view="history">Historia</button>
+          </nav>
+        </div>
+      </header>
+      <main class="app-main">
+        <div id="bracketApp" class="bracket-app" aria-label="Tournament bracket"></div>
+      </main>
+    </div>
+  </body>
+</html>
