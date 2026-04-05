@@ -1,0 +1,32 @@
+{
+  "rewrites": [
+    {
+      "source": "/draws",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/draws/partido/:id",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/jugadores",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/jugadores/:slug",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/historia",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/historia/:slug",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/historia/:slug/partido/:id",
+      "destination": "/index.html"
+    }
+  ]
+}
